@@ -1,7 +1,7 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Issue Classification example
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+In this example we perform a logical regression on a dataset of github issues to predict the labels on newly entered tickets.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+The data is gathered from the quarkusio/quarkus repository, which provides a dataset that includes title and body (of the issues reported) and is labeled using labels (i.e. area/devmode, or kind/bug).
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+The idea is to develop a regression model from this that can infer the label(s) for newly entered issues.
