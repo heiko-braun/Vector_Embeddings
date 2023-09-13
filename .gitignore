@@ -1,1 +1,2 @@
-data/*.pkl
+data/raw/*.pkl
+data/prepared/*.pkl
